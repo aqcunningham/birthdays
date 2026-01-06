@@ -1,8 +1,11 @@
 # Birthdays
 
 Small Flask web app to store and display birthdays using a SQLite database.  
-Users can submit a name and date, and the app shows the full list of stored birthdays.
+Users can submit a name and date, and the app shows the full list of stored birthdays
 
+<img width="1901" height="1061" alt="image" src="https://github.com/user-attachments/assets/b997ec1f-648e-446a-86aa-05cfa5167e7f" />
+<img width="1904" height="1062" alt="image" src="https://github.com/user-attachments/assets/528455a5-7e31-4bbe-8e83-fa8eb51fd9cb" />
+<img width="1905" height="830" alt="image" src="https://github.com/user-attachments/assets/31ecb1f9-c2c9-4eea-a47b-aa094ef52525" />
 ---
 
 ## 🌐 Live Demo
