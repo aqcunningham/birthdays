@@ -10,7 +10,8 @@ Users can submit a name and date, and the app shows the full list of stored birt
 
 ## 🌐 Live Demo
 
-**Live Demo:** https://your-render-url-here.onrender.com
+**Live Demo:** https://birthdays-jg6y.onrender.com
+<!-- The free instance will spin down with inactivity, which can delay requests by 50 seconds or more. -->
 
 ---
 
