@@ -42,13 +42,17 @@ Users can submit a name and date, and the app shows the full list of stored birt
 	source .venv/bin/activate   
 	
 3. **Install dependencies**
+	
 	pip install -r requirements.txt
 
-4. Run the app
+4. **Run the app**
+	
 	flask run
 or
+	
 	python app.py
-5. Open the URL printed in the terminal (usually http://127.0.0.1:5000/).
+
+6. **Open the URL printed in the terminal (usually http://127.0.0.1:5000/).**
 
 
 		Project Structure
@@ -62,24 +66,27 @@ or
 		└── templates/
 			└── index.html
 
-Implementation Details
-Defines a birthdays table:
-		CREATE TABLE birthdays (
-			id INTEGER PRIMARY KEY,
-			name TEXT,
-			month INTEGER,
-			day INTEGER
-		);
+		Implementation Details
+		Defines a birthdays table:
+				CREATE TABLE birthdays (
+					id INTEGER PRIMARY KEY,
+					name TEXT,
+					month INTEGER,
+					day INTEGER
+				);
 
-On GET /:
-Queries all birthdays from the database
-Renders them in index.html
-On POST /:
-Reads name, month, and day from the submitted form
-Inserts a new row into the birthdays table
-Redirects back to the index page
-What I Practiced
-Building a small CRUD-style Flask app
-Working with SQLite from Python
-Using templates and static files in Flask
-Deploying a Python web app to Render
+	On GET /:
+		Queries all birthdays from the database
+		Renders them in index.html
+
+	On POST /:
+		Reads name, month, and day from the submitted form
+		Inserts a new row into the birthdays table
+		Redirects back to the index page
+
+What I Practiced:
+
+	Building a small CRUD-style Flask app
+	Working with SQLite from Python
+	Using templates and static files in Flask
+	Deploying a Python web app to Render
